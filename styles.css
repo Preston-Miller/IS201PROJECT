@@ -1,0 +1,38 @@
+body {
+    background-color: #808080; /* Background color for the body */
+    font-family: Arial, sans-serif; /* Font family for the body */
+}
+
+/* Styles for the first div */
+.div1 {
+    background-color: #ff9999; /* Light red background */
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid #ff0000; /* Red border */
+}
+
+/* Styles for the second div */
+.div2 {
+    background-color: #99ff99; /* Light green background */
+    margin: 10px auto; /* Centered horizontally */
+    padding: 15px;
+    width: 50%; /* Half the width of its container */
+    text-align: center; /* Center text inside the div */
+}
+
+/* Styles for the third div */
+.div3 {
+    background-color: #9999ff; /* Light blue background */
+    margin: 10px;
+    padding: 15px;
+    float: right; /* Align to the right */
+    width: 30%; /* 30% of the width of its container */
+}
+
+/* Clearfix for floated elements */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
